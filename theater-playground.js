@@ -5,4 +5,4 @@ const { core, studio } = Theatre;
 
 studio.initialize(); // Start the Theatre.js UI
 
-console.log("Theatre.js code is running!!");
+console.log("Theatre.js code is running!");
