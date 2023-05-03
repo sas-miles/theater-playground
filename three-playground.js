@@ -1,6 +1,19 @@
+const THREE_MODULE_URL = "https://unpkg.com/three@0.137.5/build/three.module.js";
+const ORBIT_CONTROLS_URL = "https://unpkg.com/three@0.137.5/examples/jsm/controls/OrbitControls.js";
+
+async function main() {
+  const { default: THREE } = await import(THREE_MODULE_URL);
+  const { OrbitControls } = await import(ORBIT_CONTROLS_URL);
+
+  // Your JavaScript code using Three.js and OrbitControls goes here
+}
+
+main().catch((error) => console.error('An error occurred:', error));
+
+
 import * as THREE from 'three';
 
-// Your JavaScript code using Three.js and addons goes here
+/* Your JavaScript code using Three.js and addons goes here
 
 
 //Scene
@@ -18,4 +31,4 @@ scene.add(mesh)
 
 const camera = new Three.PerspectiveCamera( 45, 1920/1080, 1000)
 
-console.log("hello");
+console.log("hello");*/
