@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/OrbitControls.js';
 
 // Your JavaScript code using Three.js and addons goes here
 
