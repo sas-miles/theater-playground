@@ -1,5 +1,5 @@
-const THREE_MODULE_URL = "https://unpkg.com/three@0.137.5/build/three.module.js";
-const ORBIT_CONTROLS_URL = "https://unpkg.com/three@0.137.5/examples/jsm/controls/OrbitControls.js";
+const THREE_MODULE_URL = "https://unpkg.com/three@0.152.2/build/three.module.js";
+const ORBIT_CONTROLS_URL = "https://unpkg.com/three@0.152.2/examples/jsm/controls/OrbitControls.js";
 
 async function main() {
   const { default: THREE } = await import(THREE_MODULE_URL);
