@@ -13,3 +13,4 @@ scene.add(mesh)
 
 const camera = new Three.PerspectiveCamera( 45, 1920/1080, 1000)
 
+console.log("hello");
